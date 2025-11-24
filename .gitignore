@@ -1,0 +1,31 @@
+# Archivos binarios y ejecutables
+*.exe
+*.o
+*.obj
+*.out
+*.class
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Configuración de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de salida de MARS
+salida.txt
+inputs.txt
+
+# Archivos de compilación
+*.asm
+!main_mips.asm
+!main_intel_x86-64.asm
